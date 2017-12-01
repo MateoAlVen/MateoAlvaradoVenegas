@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+    height: 25%
+    
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5%;
+    text-align: center;
+}
+
+h1, h2 {
+  display: inline;
+  background: #fff;
+
+}
+
+
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   div.gallery {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   div.gallery {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   div.gallery {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 2560px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   div.gallery {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+}
+
+h1 {
+  font-size: 30px
+}
+h2 {
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<div>
+<center><h1>Welcome to Mateo's Picture</h1><br>
+</div>
+<br>
+<hr>
+<br>
+<div class="gallery">
+  <a target="_blank" href="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">This is the Real Madrid logo
+  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh3.googleusercontent.com/1WCUjb1eF1GsgaRN_1BRnIOxsHCmnmq-CIshsUjvYWqn-77_0yVppf6yPdvNI87JfNFI7FnU6pO0kAt82Veh_x8U5r5xlsSpnW7lZyzxSDSeiZZwLQTNpV4dUK1a5AJBfxVHU859">
+    <img src="https://lh3.googleusercontent.com/1WCUjb1eF1GsgaRN_1BRnIOxsHCmnmq-CIshsUjvYWqn-77_0yVppf6yPdvNI87JfNFI7FnU6pO0kAt82Veh_x8U5r5xlsSpnW7lZyzxSDSeiZZwLQTNpV4dUK1a5AJBfxVHU859" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc">This is my dog Liliah</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh3.googleusercontent.com/hyvL_7a5Ng9fU_6_0aoExOcJDbulOeYT43lKYi4zthNmWorup4GPqg6auqEuoWooyAih-mCw_MYKp10FRGijY2GDxmC9LofRwxj5mPiZrWyRw0rB2OeYnRrIiMc90_2Eq2Lyr1qk">
+    <img src="https://lh3.googleusercontent.com/hyvL_7a5Ng9fU_6_0aoExOcJDbulOeYT43lKYi4zthNmWorup4GPqg6auqEuoWooyAih-mCw_MYKp10FRGijY2GDxmC9LofRwxj5mPiZrWyRw0rB2OeYnRrIiMc90_2Eq2Lyr1qk" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">This my dad holding Lilah</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh3.googleusercontent.com/ELDmAYXU0pCTFmDubeZMUOT7zdCCIKq5okPOmXmTTAX8D4zr2zrzffvPisYXd8SlErE-GAm2dsXWZM_iIJOI96wuG2R745aCeivGHSeh5OAgfHwLFuReJ5GplYFZtms8946pDMJp">
+    <img src="https://lh3.googleusercontent.com/ELDmAYXU0pCTFmDubeZMUOT7zdCCIKq5okPOmXmTTAX8D4zr2zrzffvPisYXd8SlErE-GAm2dsXWZM_iIJOI96wuG2R745aCeivGHSeh5OAgfHwLFuReJ5GplYFZtms8946pDMJp" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">This is my old indoor soccer team</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://lh4.googleusercontent.com/e4ODe3LvZLr5k1HSzevKGvqd5j14qfxJuN-NyRcJ_09sezzEkAf4nJO9fr__-VvYjEN-GGSEyck5PmFynkYI_-fQHiFZxdFySOYKdf6hBDbtEPj2LWhQHxNpZfIL9rCs4u-iNPcS">
+    <img src="https://lh4.googleusercontent.com/e4ODe3LvZLr5k1HSzevKGvqd5j14qfxJuN-NyRcJ_09sezzEkAf4nJO9fr__-VvYjEN-GGSEyck5PmFynkYI_-fQHiFZxdFySOYKdf6hBDbtEPj2LWhQHxNpZfIL9rCs4u-iNPcS" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">This is my sister, my friend, and I in a log at the Mckenzie Center</div>
+</div>
+
+<div class="gallery">
+  <a target="https://lh6.googleusercontent.com/WTrNmk2TAzfnkwvB2NwWibUN6XjCbQlUEP1TZF1wL-OVbZj7QvluFQzPUxIM6xGsEvHadann30iLfVvGRqJQQfVZ9mffcwPFP7OtOsRrhfj5D-iiT0NUKnt4eqWNIdMArTaRu3lx">
+    <img src="https://lh6.googleusercontent.com/WTrNmk2TAzfnkwvB2NwWibUN6XjCbQlUEP1TZF1wL-OVbZj7QvluFQzPUxIM6xGsEvHadann30iLfVvGRqJQQfVZ9mffcwPFP7OtOsRrhfj5D-iiT0NUKnt4eqWNIdMArTaRu3lx" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">This was an old soccer team I used to play for</div>
+</div>
+
+</body>
+</html>
